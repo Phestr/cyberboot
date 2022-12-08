@@ -7,5 +7,5 @@ echo Hello $Name , here is the login history
 
 echo Enter First Name
 read Name
-greetings Joe
+greetings
 last
