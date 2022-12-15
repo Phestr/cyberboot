@@ -7,7 +7,7 @@ ps aux
 
 P2=y
 
-while  [ $P2 = y ]
+while  [[ $P2 = y ]]
 do
     echo Enter PID to terminate:
     read P1  
