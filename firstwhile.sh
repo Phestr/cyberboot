@@ -1,6 +1,5 @@
 #!/bin/bash
-#   stlouis-ops-201n3 Ops Challenge 5
-#   Author: Joe Doyle
+
 #while loop
 
 
