@@ -5,14 +5,16 @@
 #This loop will facilitate the menu system of your script, so that it can prompt the user to choose an option.
 ps aux
 
-P1=1
+P2=y
 
-while  [ $P1 -gt 0 ]
+while  [ $P2 = y ]
 do
-    echo Enter PID to terminate or 0 to quit:
+    echo Enter PID to terminate:
     read P1  
     kill $P1
     echo $P1 Terminated
+    echo Would you like to continue? Type "y" to continue, or anytthing else to quit.
+    read $P2
 done
 
 echo Exit Successful
