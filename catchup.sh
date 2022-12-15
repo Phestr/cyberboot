@@ -18,10 +18,12 @@
 #Here are some helpful commands to make this happen.
 
 function fives (){
-if [[ $VAR  -gt 5 ]]
+if [[ $VAR -ge 2 && -le 5 ]]
 then
-  echo Your number is greater than 5
-elif [[ $VAR  -lt 5 ]]
+  echo Valid number
+  
+  break
+else "Not a valid number.  Try again"
 then
   echo Your number is less than 5
 else
