@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Ops Challenge Class 6 - Conditionals
 # Author:   Joe Doyle
 # Create a script that detects if a file or directory exists, then creates it if it does not exist.
