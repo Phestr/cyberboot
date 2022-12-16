@@ -1,7 +1,15 @@
-# Ops Challenge Class 6 - Conditionals
-# Author:   Joe Doyle
-# Create a script that detects if a file or directory exists, then creates it if it does not exist.
-# Script must use at least one array, one loop, and one conditional.
+#!/bin/bash
+#Array practice
+
+
+array=( .doc .sh .txt )
+
+echo Choose a filetype to check:
+
+select number in ${array[@]}
+do
+break
+done
 
 loop=y
 
@@ -9,11 +17,11 @@ while [ $loop = y ]
     do
         echo Enter file to check:
         read file
-            if test $file
+            if test $file$number
             then
                 echo File exists.
             else
-                touch $file
+                touch $file$number
                 echo File did not exist, so I made one
             fi
 
