@@ -1,2 +1,3 @@
 
-Get-Eventlog -After (Get-Date).AddHours(-24) Out-File -FilePath C:\Users\phest\Desktop\SampleEventOutput.txt
+Get-EventLog system -After (Get-Date).AddHours(-24) Out-File -FilePath home\joe\Desktop\24hrlog.txt
+Get-EventLog -LogName System -Entrytype error Out-File -FilePath home\joe\Desktop\Error.txt
