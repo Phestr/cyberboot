@@ -8,7 +8,7 @@ netsh advfirewall firewall set rule group="File and Printer Sharing" new enable=
 netsh advfirewall firewall add rule name="ICMP Allow incoming V4 echo request" protocol="icmpv4:8,any" dir=in action=allow
 #IPv6
 netsh advfirewall firewall add rule name="ICMP Allow incoming V6 echo request" protocol="icmpv6:8,any" dir=in action=allow
-#Enable Remaonte Management
+#Enable Remote Management
 Enable-PSRemoting
 #Remove Bloatware
 Get-AppxPackage * | Remove-AppxPackage
