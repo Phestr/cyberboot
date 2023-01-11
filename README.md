@@ -1,4 +1,4 @@
-# cyberboot
+# ReadMe for the Cyber Bootcamp Repo (cyberboot) 
 Welcome to my repo!  This repo was created to house all the scripts that I wrote during the course of SavvyCoder's Cybersecurtiy +Ops bootcamp, which I attended from Nov 2022 to Mar 2023.
 I originally enrolled in this bootcamp to increase the likelihood of getting a job in the IT/Cybersecurity industry.  I've long been interested in computers, specifically automation and security, so this type of learning was right up my alley.
 Ops 201, specifically, taught many fundamentals of cosing, both in PowerShell and Bash, that really emphasised how powerful automation can be.
