@@ -17,5 +17,6 @@ wtmpzip=$(stat -c %s /var/log/backup/wtmp_$now.zip )
 
 echo Syslog original vs Compressed: $sysorg / $syszip
 echo WMPT original vs Compressed: $wtmporg / $wtmpzip
+
 cat /dev/null > /var/log/syslog
 cat /dev/null > /var/log/wtmp
