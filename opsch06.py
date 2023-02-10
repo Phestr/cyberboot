@@ -1,14 +1,15 @@
 
 
 import os
+
 #Declare variables
-define_user = ("whoami")
-define_ip = ("ip A")
-define_hardware = ("ishw -short")
+define_user = "whoami"
+define_ip = "ip a"
+define_hardware = "lshw -short"
+
 #main printing
-print("result of whoami")
-print(define_user.read())
-print("result of ip a")
-print(define_ip.read())
-print("result of ishw-short")
-print(define_hardware.read())
+print(os.system(define_user))
+print(os.system(define_ip))
+print(os.system(define_hardware))
+
+
